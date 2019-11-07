@@ -1,10 +1,11 @@
 {
   "name": "redux-action-helper-x",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Redux helper function for actions",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test-coverage": "jest --coverage",
     "build": "babel --out-dir dist --ignore *.test.js src --presets=@babel/preset-env"
   },
   "repository": {
@@ -25,6 +26,9 @@
   "devDependencies": {
     "@babel/cli": "7.7.0",
     "@babel/core": "7.7.2",
-    "@babel/preset-env": "7.7.1"
+    "@babel/preset-env": "7.7.1",
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "prettier": "1.18.2"
   }
 }
