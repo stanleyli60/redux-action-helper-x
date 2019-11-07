@@ -1,13 +1,13 @@
 {
   "name": "redux-action-helper-x",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Redux helper function for actions",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "npm run test && yarn run build",
+    "prepublish": "rm -rf ./dist && npm run test && yarn run build",
     "test": "jest",
     "test-coverage": "jest --coverage",
-    "build": "babel --out-dir dist --ignore *.test.js src --presets=@babel/preset-env"
+    "build": "babel --out-dir dist --ignore '**/*.test.js' src --presets=@babel/preset-env"
   },
   "repository": {
     "type": "git",
