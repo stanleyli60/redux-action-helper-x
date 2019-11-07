@@ -1,0 +1,24 @@
+{
+  "name": "redux-action-helper",
+  "version": "1.0.0",
+  "description": "Redux helper function for actions",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanleyli60/redux-action-helper.git"
+  },
+  "keywords": [
+    "redux",
+    "action",
+    "helper"
+  ],
+  "author": "Stanley Li <stanley.li.60@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stanleyli60/redux-action-helper/issues"
+  },
+  "homepage": "https://github.com/stanleyli60/redux-action-helper#readme"
+}
