@@ -1,5 +1,6 @@
 # redux-action-helper-x
 ![Travis (.org)](https://img.shields.io/travis/stanleyli60/redux-action-helper-x)
+![Coveralls github](https://img.shields.io/coveralls/github/stanleyli60/redux-action-helper-x)
 ![David](https://img.shields.io/david/dev/stanleyli60/redux-action-helper-x)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/stanleyli60/redux-action-helper-x)
 ![npm](https://img.shields.io/npm/v/redux-action-helper-x)
