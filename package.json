@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel --out-dir dist --ignore *.test.js src"
+    "build": "babel --out-dir dist --ignore *.test.js src --presets=@babel/preset-env"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/stanleyli60/redux-action-helper#readme",
   "devDependencies": {
-    "babel-cli": "6.26.0"
+    "@babel/cli": "7.7.0",
+    "@babel/core": "7.7.2",
+    "@babel/preset-env": "7.7.1"
   }
 }
