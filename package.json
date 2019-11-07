@@ -1,5 +1,5 @@
 {
-  "name": "redux-action-helper",
+  "name": "redux-action-helper-x",
   "version": "1.0.0",
   "description": "Redux helper function for actions",
   "main": "src/index.js",
