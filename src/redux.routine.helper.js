@@ -1,24 +1,24 @@
-export const createRoutine = prefix => {
-  let routine = {};
+export default function createRoutine(prefix) {
+  const routine = {};
   routine.namespace = prefix;
   routine.request = `${prefix}_REQUEST`;
   routine.success = `${prefix}_SUCCESS`;
   routine.failure = `${prefix}_FAILURE`;
 
-  routine.requestAction = payload => ({
+  routine.requestAction = (payload) => ({
     type: routine.request,
-    payload
+    payload,
   });
 
-  routine.successAction = data => ({
+  routine.successAction = (data) => ({
     type: routine.success,
-    data
+    data,
   });
 
-  routine.failureAction = error => ({
+  routine.failureAction = (error) => ({
     type: routine.failure,
-    error
+    error,
   });
 
   return routine;
-};
+}
