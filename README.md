@@ -16,5 +16,32 @@ This package includes helper functions to reduce the redux boilerplate for actio
 
 ## Helper Functions
 
+This library offers two helper function: **createRoutine** and **createSingleAction**.
 
-## Examples
+#### createRoutine
+
+This helper function is mainly for REQUEST/SUCCESS/FAILURE redux action calls. 
+It will create three action types automatically and create three action functions including the payload.
+
+Example:
+```js
+// todo.actions.js
+import { createRoutine } from "redux-action-helper-x";
+
+export const todoAddRoutine = createRoutine("todo/ADD");
+```
+
+```js
+// todo.reducer.js
+import { todoAddRoutine } from "./todo.actions.js";
+
+export default (state = {}, action) => {
+  switch (action.type) {
+    case todoAddRoutine.request:  return {};
+    case todoAddRoutine.success:  return {};
+    case todoAddRoutine.failure:  return {};
+    default:  return state;
+  }
+}
+```
+
