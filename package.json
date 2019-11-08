@@ -1,6 +1,6 @@
 {
   "name": "redux-action-helper-x",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Redux helper function for actions",
   "main": "dist/build.min.js",
   "files": [
